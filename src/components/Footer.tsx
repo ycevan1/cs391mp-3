@@ -18,7 +18,7 @@ export default function Footer() {
     return (
         <StyledFooter>
             <p>
-                All Rights Reserved by Yuming Chen <StyledFooterLink to={``}>Credits</StyledFooterLink> &copy;
+                All Rights Reserved by Yuming Chen <StyledFooterLink to={``}>Credits</StyledFooterLink> &#169;
             </p>
         </StyledFooter>
     );
