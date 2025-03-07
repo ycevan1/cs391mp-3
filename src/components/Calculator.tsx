@@ -74,7 +74,6 @@ export default function Calculator() {
     function CalculateAnswer(operation: string) {
         const num1 = Number(firstNum);
         const num2 = Number(secondNum);
-        console.log(num1 + num2);
 
         if (isNaN(num1) || isNaN(num2) || firstNum === "" || secondNum === "") {
             console.log(num1 + num2);
