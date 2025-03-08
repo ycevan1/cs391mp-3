@@ -76,7 +76,6 @@ export default function Calculator() {
         const num2 = Number(secondNum);
 
         if (isNaN(num1) || isNaN(num2) || firstNum === "" || secondNum === "") {
-            console.log(num1 + num2);
             setOutput("Invalid Input(s)");
             return;
         } else {
