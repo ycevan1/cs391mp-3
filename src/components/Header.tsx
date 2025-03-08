@@ -7,7 +7,7 @@ const StyledHeader = styled.header`
     background-color: #131313;
     color: white;
     
-    @media (max-width: 750px) {
+    @media screen and (max-width: 750px) {
         align-items: center;
     }
 `;

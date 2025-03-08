@@ -19,7 +19,7 @@ const StyledUnorderedList = styled.ul`
     list-style: none;
     padding-left: 0;
     
-    @media (max-width: 750px) {
+    @media screen and (max-width: 750px) {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
